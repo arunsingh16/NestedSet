@@ -1,6 +1,6 @@
 -- Source table holding the Adjacency list tree. 
 
-CREATE TABLE `catalog_tree_nodes` (
+CREATE TABLE `tree_nodes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   `parent_id` int(11) DEFAULT NULL,
